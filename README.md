@@ -9,7 +9,7 @@ Two pages:
 - **`/`** — landing page introducing the product
 - **`/map`** — the live map of classified industrial anomalies
 
-Live: https://sih-one-wheat.vercel.app
+Live: https://pyrosphere.vercel.app/
 
 ## The Problem
 
