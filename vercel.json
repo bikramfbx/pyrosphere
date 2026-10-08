@@ -4,7 +4,7 @@
   "functions": {
     "api/handler.py": {
       "maxDuration": 300,
-      "includeFiles": "**"
+      "includeFiles": "api/**"
     }
   },
   "rewrites": [

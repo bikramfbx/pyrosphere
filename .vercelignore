@@ -1,6 +1,20 @@
-data/facilities/*.csv
-data/facilities/*.csv.gz
-*.csv.gz
+# Local-only / oversized artifacts (never needed by the Vercel function)
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/
+pgdata/
+reports/
+.vercel/
+node_modules/
+
+# Env / secrets
 .env
 .env.deploy
 .env.local
+
+# Raw datasets (kept out of uploads)
+*.csv
+*.csv.gz
+*.csv.xz
